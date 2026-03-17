@@ -2,7 +2,7 @@
 from machine import Pin
 import time
 
-print('Hello Worl')
+print('Hello from Git')
 
 # Setup LED on Pin 8
 led = Pin(8, Pin.OUT)
