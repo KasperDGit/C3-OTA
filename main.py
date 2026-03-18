@@ -9,6 +9,6 @@ led = Pin(8, Pin.OUT)
 
 while True:
     led.value(1)    # Turn LED on
-    time.sleep(0.5) # Sleep for 0.5 seconds
+    time.sleep(0.2) # Sleep for 0.5 seconds
     led.value(0)    # Turn LED off
-    time.sleep(0.5) # Sleep for 0.5 seconds
+    time.sleep(0.2) # Sleep for 0.5 seconds
